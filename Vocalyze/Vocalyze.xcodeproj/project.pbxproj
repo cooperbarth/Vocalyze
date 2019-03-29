@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDDDB29D224DD1A400EF488E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB29C224DD1A400EF488E /* AppDelegate.swift */; };
-		CDDDB29F224DD1A400EF488E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB29E224DD1A400EF488E /* ViewController.swift */; };
+		CDDDB29F224DD1A400EF488E /* GetBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB29E224DD1A400EF488E /* GetBuffer.swift */; };
 		CDDDB2A2224DD1A400EF488E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A0224DD1A400EF488E /* Main.storyboard */; };
 		CDDDB2A4224DD1A600EF488E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A3224DD1A600EF488E /* Assets.xcassets */; };
 		CDDDB2A7224DD1A600EF488E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		CDDDB299224DD1A400EF488E /* Vocalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDDB29C224DD1A400EF488E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDDDB29E224DD1A400EF488E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDDDB29E224DD1A400EF488E /* GetBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBuffer.swift; sourceTree = "<group>"; };
 		CDDDB2A1224DD1A400EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDDDB2A3224DD1A600EF488E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDDB2A6224DD1A600EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,10 +54,10 @@
 		CDDDB29B224DD1A400EF488E /* Vocalyze */ = {
 			isa = PBXGroup;
 			children = (
-				CDDDB29C224DD1A400EF488E /* AppDelegate.swift */,
-				CDDDB29E224DD1A400EF488E /* ViewController.swift */,
 				CDDDB2A0224DD1A400EF488E /* Main.storyboard */,
+				CDDDB29E224DD1A400EF488E /* GetBuffer.swift */,
 				CDDDB2A3224DD1A600EF488E /* Assets.xcassets */,
+				CDDDB29C224DD1A400EF488E /* AppDelegate.swift */,
 				CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */,
 				CDDDB2A8224DD1A600EF488E /* Info.plist */,
 			);
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDDB29F224DD1A400EF488E /* ViewController.swift in Sources */,
+				CDDDB29F224DD1A400EF488E /* GetBuffer.swift in Sources */,
 				CDDDB29D224DD1A400EF488E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
