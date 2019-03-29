@@ -1,2 +1,2 @@
 # Vocalyze
-An game that automatically generates karaoke tracks from Spotify and Apple Music libraries
+A game that automatically generates karaoke tracks from a user's Spotify and Apple Music libraries.
