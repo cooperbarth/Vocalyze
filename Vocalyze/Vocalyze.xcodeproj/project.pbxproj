@@ -12,6 +12,7 @@
 		CDDDB2A2224DD1A400EF488E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A0224DD1A400EF488E /* Main.storyboard */; };
 		CDDDB2A4224DD1A600EF488E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A3224DD1A600EF488E /* Assets.xcassets */; };
 		CDDDB2A7224DD1A600EF488E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */; };
+		CDDDB2AF224DDBA400EF488E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB2AE224DDBA400EF488E /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CDDDB2A3224DD1A600EF488E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDDB2A6224DD1A600EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDDDB2A8224DD1A600EF488E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDDB2AE224DDBA400EF488E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CDDDB2A0224DD1A400EF488E /* Main.storyboard */,
 				CDDDB29E224DD1A400EF488E /* GetBuffer.swift */,
+				CDDDB2AE224DDBA400EF488E /* Song.swift */,
 				CDDDB2A3224DD1A600EF488E /* Assets.xcassets */,
 				CDDDB29C224DD1A400EF488E /* AppDelegate.swift */,
 				CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDDB2AF224DDBA400EF488E /* Song.swift in Sources */,
 				CDDDB29F224DD1A400EF488E /* GetBuffer.swift in Sources */,
 				CDDDB29D224DD1A400EF488E /* AppDelegate.swift in Sources */,
 			);

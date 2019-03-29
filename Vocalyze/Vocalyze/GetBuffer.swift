@@ -33,4 +33,7 @@ class GetBuffer: UIViewController, MPMediaPickerControllerDelegate {
         mediaPicker.dismiss(animated: true, completion: nil)
     }
 
+    func getSongBuffer() {
+        
+    }
 }
