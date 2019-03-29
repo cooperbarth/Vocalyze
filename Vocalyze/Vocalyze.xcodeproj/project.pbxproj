@@ -7,68 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDDDB29D224DD1A400EF488E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB29C224DD1A400EF488E /* AppDelegate.swift */; };
-		CDDDB29F224DD1A400EF488E /* GetBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB29E224DD1A400EF488E /* GetBuffer.swift */; };
-		CDDDB2A2224DD1A400EF488E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A0224DD1A400EF488E /* Main.storyboard */; };
-		CDDDB2A4224DD1A600EF488E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A3224DD1A600EF488E /* Assets.xcassets */; };
-		CDDDB2A7224DD1A600EF488E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */; };
-		CDDDB2AF224DDBA400EF488E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB2AE224DDBA400EF488E /* Song.swift */; };
-		CDDDB2B1224DF3FF00EF488E /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */; };
+		CD803270224E049A002F8010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80326F224E049A002F8010 /* AppDelegate.swift */; };
+		CD803272224E049A002F8010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD803271224E049A002F8010 /* ViewController.swift */; };
+		CD803275224E049A002F8010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD803273224E049A002F8010 /* Main.storyboard */; };
+		CD803277224E049B002F8010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD803276224E049B002F8010 /* Assets.xcassets */; };
+		CD80327A224E049B002F8010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD803278224E049B002F8010 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDDDB299224DD1A400EF488E /* Vocalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDDB29C224DD1A400EF488E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDDDB29E224DD1A400EF488E /* GetBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBuffer.swift; sourceTree = "<group>"; };
-		CDDDB2A1224DD1A400EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDDDB2A3224DD1A600EF488E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDDDB2A6224DD1A600EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDDDB2A8224DD1A600EF488E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDDDB2AE224DDBA400EF488E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
-		CDDDB2B2224DF4C500EF488E /* Vocalyze-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vocalyze-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD80326C224E049A002F8010 /* Vocalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD80326F224E049A002F8010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD803271224E049A002F8010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD803274224E049A002F8010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD803276224E049B002F8010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD803279224E049B002F8010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD80327B224E049B002F8010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDDDB296224DD1A400EF488E /* Frameworks */ = {
+		CD803269224E049A002F8010 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDDB2B1224DF3FF00EF488E /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDDDB290224DD1A400EF488E = {
+		CD803263224E049A002F8010 = {
 			isa = PBXGroup;
 			children = (
-				CDDDB29B224DD1A400EF488E /* Vocalyze */,
-				CDDDB29A224DD1A400EF488E /* Products */,
-				CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */,
+				CD80326E224E049A002F8010 /* Vocalyze */,
+				CD80326D224E049A002F8010 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDDDB29A224DD1A400EF488E /* Products */ = {
+		CD80326D224E049A002F8010 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDDDB299224DD1A400EF488E /* Vocalyze.app */,
+				CD80326C224E049A002F8010 /* Vocalyze.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDDDB29B224DD1A400EF488E /* Vocalyze */ = {
+		CD80326E224E049A002F8010 /* Vocalyze */ = {
 			isa = PBXGroup;
 			children = (
-				CDDDB2A0224DD1A400EF488E /* Main.storyboard */,
-				CDDDB29E224DD1A400EF488E /* GetBuffer.swift */,
-				CDDDB2AE224DDBA400EF488E /* Song.swift */,
-				CDDDB2A3224DD1A600EF488E /* Assets.xcassets */,
-				CDDDB29C224DD1A400EF488E /* AppDelegate.swift */,
-				CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */,
-				CDDDB2A8224DD1A600EF488E /* Info.plist */,
-				CDDDB2B2224DF4C500EF488E /* Vocalyze-Bridging-Header.h */,
+				CD80326F224E049A002F8010 /* AppDelegate.swift */,
+				CD803271224E049A002F8010 /* ViewController.swift */,
+				CD803273224E049A002F8010 /* Main.storyboard */,
+				CD803276224E049B002F8010 /* Assets.xcassets */,
+				CD803278224E049B002F8010 /* LaunchScreen.storyboard */,
+				CD80327B224E049B002F8010 /* Info.plist */,
 			);
 			path = Vocalyze;
 			sourceTree = "<group>";
@@ -76,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDDDB298224DD1A400EF488E /* Vocalyze */ = {
+		CD80326B224E049A002F8010 /* Vocalyze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDDDB2AB224DD1A600EF488E /* Build configuration list for PBXNativeTarget "Vocalyze" */;
+			buildConfigurationList = CD80327E224E049B002F8010 /* Build configuration list for PBXNativeTarget "Vocalyze" */;
 			buildPhases = (
-				CDDDB295224DD1A400EF488E /* Sources */,
-				CDDDB296224DD1A400EF488E /* Frameworks */,
-				CDDDB297224DD1A400EF488E /* Resources */,
+				CD803268224E049A002F8010 /* Sources */,
+				CD803269224E049A002F8010 /* Frameworks */,
+				CD80326A224E049A002F8010 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,25 +81,25 @@
 			);
 			name = Vocalyze;
 			productName = Vocalyze;
-			productReference = CDDDB299224DD1A400EF488E /* Vocalyze.app */;
+			productReference = CD80326C224E049A002F8010 /* Vocalyze.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDDDB291224DD1A400EF488E /* Project object */ = {
+		CD803264224E049A002F8010 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = cooperbarth;
 				TargetAttributes = {
-					CDDDB298224DD1A400EF488E = {
+					CD80326B224E049A002F8010 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = CDDDB294224DD1A400EF488E /* Build configuration list for PBXProject "Vocalyze" */;
+			buildConfigurationList = CD803267224E049A002F8010 /* Build configuration list for PBXProject "Vocalyze" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = CDDDB290224DD1A400EF488E;
-			productRefGroup = CDDDB29A224DD1A400EF488E /* Products */;
+			mainGroup = CD803263224E049A002F8010;
+			productRefGroup = CD80326D224E049A002F8010 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDDDB298224DD1A400EF488E /* Vocalyze */,
+				CD80326B224E049A002F8010 /* Vocalyze */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CDDDB297224DD1A400EF488E /* Resources */ = {
+		CD80326A224E049A002F8010 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDDB2A7224DD1A600EF488E /* LaunchScreen.storyboard in Resources */,
-				CDDDB2A4224DD1A600EF488E /* Assets.xcassets in Resources */,
-				CDDDB2A2224DD1A400EF488E /* Main.storyboard in Resources */,
+				CD80327A224E049B002F8010 /* LaunchScreen.storyboard in Resources */,
+				CD803277224E049B002F8010 /* Assets.xcassets in Resources */,
+				CD803275224E049A002F8010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDDDB295224DD1A400EF488E /* Sources */ = {
+		CD803268224E049A002F8010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDDB2AF224DDBA400EF488E /* Song.swift in Sources */,
-				CDDDB29F224DD1A400EF488E /* GetBuffer.swift in Sources */,
-				CDDDB29D224DD1A400EF488E /* AppDelegate.swift in Sources */,
+				CD803272224E049A002F8010 /* ViewController.swift in Sources */,
+				CD803270224E049A002F8010 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDDDB2A0224DD1A400EF488E /* Main.storyboard */ = {
+		CD803273224E049A002F8010 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDDDB2A1224DD1A400EF488E /* Base */,
+				CD803274224E049A002F8010 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */ = {
+		CD803278224E049B002F8010 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDDDB2A6224DD1A600EF488E /* Base */,
+				CD803279224E049B002F8010 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CDDDB2A9224DD1A600EF488E /* Debug */ = {
+		CD80327C224E049B002F8010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		CDDDB2AA224DD1A600EF488E /* Release */ = {
+		CD80327D224E049B002F8010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,51 +278,39 @@
 			};
 			name = Release;
 		};
-		CDDDB2AC224DD1A600EF488E /* Debug */ = {
+		CD80327F224E049B002F8010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LR657G4K;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Vocalyze/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooperbarth.Vocalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Vocalyze-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CDDDB2AD224DD1A600EF488E /* Release */ = {
+		CD803280224E049B002F8010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LR657G4K;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Vocalyze/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooperbarth.Vocalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Vocalyze-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDDDB294224DD1A400EF488E /* Build configuration list for PBXProject "Vocalyze" */ = {
+		CD803267224E049A002F8010 /* Build configuration list for PBXProject "Vocalyze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDDDB2A9224DD1A600EF488E /* Debug */,
-				CDDDB2AA224DD1A600EF488E /* Release */,
+				CD80327C224E049B002F8010 /* Debug */,
+				CD80327D224E049B002F8010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDDDB2AB224DD1A600EF488E /* Build configuration list for PBXNativeTarget "Vocalyze" */ = {
+		CD80327E224E049B002F8010 /* Build configuration list for PBXNativeTarget "Vocalyze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDDDB2AC224DD1A600EF488E /* Debug */,
-				CDDDB2AD224DD1A600EF488E /* Release */,
+				CD80327F224E049B002F8010 /* Debug */,
+				CD803280224E049B002F8010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDDDB291224DD1A400EF488E /* Project object */;
+	rootObject = CD803264224E049A002F8010 /* Project object */;
 }
