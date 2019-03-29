@@ -7,33 +7,22 @@
 //
 
 import UIKit
+import AVKit
 import MediaPlayer
 
-class GetBuffer: UIViewController, MPMediaPickerControllerDelegate {
+class GetBuffer: UIViewController {
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        self.showMusicLibrary()
     }
 
-    func showMusicLibrary() {
-        let songPicker = MPMediaPickerController(mediaTypes: .music)
-        songPicker.delegate = self
-        songPicker.popoverPresentationController?.sourceView = self.view
-        songPicker.allowsPickingMultipleItems = false
-        self.present(songPicker, animated: true, completion: nil)
-        print(songPicker)
-    }
-
-    func mediaPicker(_ mediaPicker: MPMediaPickerController, didPickMediaItems mediaItemCollection: MPMediaItemCollection) {
-        mediaPicker.dismiss(animated: true, completion: nil)
-    }
-
-    func mediaPickerDidCancel(_ mediaPicker: MPMediaPickerController) {
-        mediaPicker.dismiss(animated: true, completion: nil)
-    }
-
-    func getSongBuffer() {
-        
-    }
+    /*func getSongBuffer() {
+        var songFile: AVAudioFile
+        do {
+            songFile = try AVAudioFile(forReading: <#T##URL#>)
+        } catch {
+            print("Error reading song from AVAudioFile")
+            return
+        }
+    }*/
 }

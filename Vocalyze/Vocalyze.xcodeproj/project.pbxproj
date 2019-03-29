@@ -13,6 +13,7 @@
 		CDDDB2A4224DD1A600EF488E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A3224DD1A600EF488E /* Assets.xcassets */; };
 		CDDDB2A7224DD1A600EF488E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */; };
 		CDDDB2AF224DDBA400EF488E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDB2AE224DDBA400EF488E /* Song.swift */; };
+		CDDDB2B1224DF3FF00EF488E /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		CDDDB2A6224DD1A600EF488E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDDDB2A8224DD1A600EF488E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDDB2AE224DDBA400EF488E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		CDDDB2B2224DF4C500EF488E /* Vocalyze-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vocalyze-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDDB2B1224DF3FF00EF488E /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				CDDDB29B224DD1A400EF488E /* Vocalyze */,
 				CDDDB29A224DD1A400EF488E /* Products */,
+				CDDDB2B0224DF3FF00EF488E /* SpotifyiOS.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +68,7 @@
 				CDDDB29C224DD1A400EF488E /* AppDelegate.swift */,
 				CDDDB2A5224DD1A600EF488E /* LaunchScreen.storyboard */,
 				CDDDB2A8224DD1A600EF488E /* Info.plist */,
+				CDDDB2B2224DF4C500EF488E /* Vocalyze-Bridging-Header.h */,
 			);
 			path = Vocalyze;
 			sourceTree = "<group>";
@@ -288,13 +294,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LR657G4K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vocalyze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooperbarth.Vocalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vocalyze-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,13 +319,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LR657G4K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vocalyze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooperbarth.Vocalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vocalyze-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
